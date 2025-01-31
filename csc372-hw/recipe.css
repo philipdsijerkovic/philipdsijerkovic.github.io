@@ -1,0 +1,62 @@
+/* Shared styles for main and secondary headings */
+h1, h2 {
+    color: #a4a400;
+    background-color: #f0f0f0;
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', sans-serif;
+    text-decoration: underline;
+    display: inline;
+}
+/* Orient the large heading in the center */
+header {
+    text-align: center;
+}
+/* Main heading css */
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    width: 100%;
+}
+/* Secondary heading css */
+h2 {
+    text-align: left;
+    font-size: 18pt;
+}
+/* Body css */
+body {
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: 'Georgia', 'Garamond', sans-serif;
+} 
+/* Link Styling */
+a {
+    color: #a4a400;
+    text-align: left;
+    display: block;
+    margin-top: 20px;
+}
+/* Invisible bullet list div */
+.invisible-bullet-list{
+    list-style-type: none;
+}
+/* Quote section */
+.quote {
+    font-style: italic;
+    background-color: #ffffa8;
+    margin-left: 40px;
+}
+/* Copyright section */
+.copyright {
+    font-family: monospace;
+    margin: 0;
+}
+
+/* I added these because I couldn't find any other ways*/
+.copyright .indent-1 {
+    margin-left: 4ch;
+}
+
+.copyright .indent-2 {
+    margin-left: 8ch;
+}
