@@ -1,0 +1,38 @@
+body {
+    background-color: lightblue;
+}
+
+.fish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(90, 109, 126);
+}
+.fish img {
+    margin: 0 10px;
+}
+
+.pie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(90, 109, 126);
+}
+
+.pie img {
+    margin: 0 10px; 
+}
+
+h1 { 
+    text-align: center;
+    font-size: 125px;
+}
+
+p {
+    font-size: 100px;
+    text-align: center;
+    background-color: rgb(90, 109, 126);
+}
+.pie p {
+    background-color: lightblue;
+}
