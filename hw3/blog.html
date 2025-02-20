@@ -1,13 +1,21 @@
 <!DOCTYPE html>
+<!--
+  Name: Philip Sijerkovic
+  Date: 02/29/2025
+  CSC 372-01
+
+  This is the blog.html page for my assignment 3.
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="blog.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand&family=Roboto:ital,wght@0,635;1,635&display=swap" rel="stylesheet">
+    <script src="blog.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- This is the font import -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand&family=Roboto:ital,wght@0,635;1,635&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -31,11 +39,126 @@
             <div class="card-content">
                 <h3 class="roboto-font">Old Town Draught House</h3>
                 <p class="roboto-font">This restaurant is a staple of the UNCG community. This is my personal favorite, with a fully stocked bar and made to order food. This is the perfect place to grab food at the end of a long school day or hang out with your friends at the end of the week.</p>
+                <p class="roboto-font">1205 Spring Garden St, Greensboro, NC</p>
+                <p class="roboto-font">Hours: 11:00 AM - 11:00 PM</p>
+                <p class="roboto-font">Specialties: Bar food such as chicken tenders and sandwiches.</p>
+            
+                <div class="recommendation">
+                    <img class="popout small" src="tenders.jpg">
+                    <div class="recommendation-content">
+                        <h4 class="roboto-font">Chicken Tenders</h4>
+                        <p class="roboto-font generated" hidden>Fried chicken tenders, my personal favorite dish at Old Town.</p>
+                    </div>
+                </div>
+
+                <div class="recommendation">
+                    <img class="popout small" src="wings.jpg">
+                    <div class="recommendation-content">
+                        <h4 class="roboto-font">Wings</h4>
+                        <p class="roboto-font generated" hidden>Fried wings tossed in a sauce of your choice, a crowd favorite on game day.</p>
+                    </div>
+                </div>
+
+                <div class="recommendation">
+                    <img class="popout small" src="firecracker-shrimp.jpg">
+                    <div class="recommendation-content">
+                        <h4 class="roboto-font">Firecracker Shrimp</h4>
+                        <p class="roboto-font generated" hidden>Spicy fried shrimp in a chinese inspired sauce. Skimpy on portions, just get as a snack.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <div class="card">
+            <img class="popout" src="happybowl.png">
+            <div class="card-content">
+                <h3 class="roboto-font">Happy Bowl</h3>
+                <p class="roboto-font">This is our asian grill offering here at UNCG, it's known to be a good spot to get a lot of food for a good price.</p>
+                <p class="roboto-font">1201 W Gate City Blvd, Greensboro, NC</p>
+                <p class="roboto-font">Hours: 11:00 AM - 9:30 PM</p>
+                <p class="roboto-font">Specialties: Bowls, japanese offerings such as tempura and Poke Bowls.</p>
+                
+                <div class="recommendation">
+                    <img class="popout small" src="hibachisteak.jpg">
+                    <div class="recommendation-content">
+                        <h4 class="roboto-font">Hibachi Steak and Shrimp</h4>
+                        <p class="roboto-font generated" hidden>Grilled beef and shrimp in a fried rice bowl with onions and various vegetables.</p>
+                    </div>
+                </div>
+
+                <div class="recommendation">
+                    <img class="popout small" src="pokebowl.jpg">
+                    <div class="recommendation-content">
+                        <h4 class="roboto-font">Salmon Poke Bowl</h4>
+                        <p class="roboto-font generated" hidden>Raw salmon chunks in a bowl over your choice of rice and toppings. It's more expensive than it should be.</p>
+                    </div>
+                </div>
+
+                <div class="recommendation">
+                    <img class="popout small" src="kimchi.jpg">
+                    <div class="recommendation-content">
+                        <h4 class="roboto-font">Kimchi Noodle Bowl</h4>
+                        <p class="roboto-font generated" hidden>Noodles with cheese, kimchi and a fried egg served with broth on the side. This is my favorite from this spot.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="popout" src="bojangles.png">
+            <div class="card-content">
+                <h3 class="roboto-font">Bojangles</h3>
+                <p class="roboto-font">This restaurant is a chain restaurant very popular here in the south for their fried food. This is one of the most beloved to-go foods on campus for sure.</p>
+                <p class="roboto-font">1501 Spring Garden St, Greensboro, NC</p>
+                <p class="roboto-font">Hours: 5:30 AM - 10 PM</p>
+                <p class="roboto-font">Specialties: Fries, fried chicken, sweet tea.</p>
+
+                <div class="recommendation">
+                    <img class="popout small" src="sandwich.png">
+                    <div class="recommendation-content">
+                        <h4 class="roboto-font">Fried Chicken Sandwich</h4>
+                        <p class="roboto-font generated" hidden>Breaded chicken patty in a brioche bun. This is a super solid choice when going for the first time.</p>
+                    </div>
+                </div>
+
+                <div class="recommendation">
+                    <img class="popout small" src="biscuit.jpeg">
+                    <div class="recommendation-content">
+                        <h4 class="roboto-font">Cajun Filet Biscuit</h4>
+                        <p class="roboto-font generated" hidden>Cajun battered chicken biscuit. This is probably the most famous breakfast item down south, for good reason.</p>
+                    </div>
+                </div>
+
+                <div class="recommendation">
+                    <img class="popout small" src="supremes.png">
+                    <div class="recommendation-content">
+                        <h4 class="roboto-font">Chicken Supremes</h4>
+                        <p class="roboto-font generated" hidden>These are my go to at Bojangles, just plain chicken tenders.</p>
+                    </div>
+                </div>
             </div>
         </div>
         
         <aside>
+            <a href="mealplan.html">
+                <button class="roboto-font">MEAL PLANNER -></button>
+            </a>
         </aside>
     </main>
 </body>
 </html>
+
+
+
+<!-- Images -->
+ <!-- Bojangles: https://www.covnews.com/news/business/bojangles-kicks-fourth-july-round-campaign-benefitting-two-military-organizations/-->
+<!-- Old town draught house: https://fr.foursquare.com/v/old-town-draught-house/4b494166f964a5209d6b26e3-->
+<!-- Tenders: https://www.simplysissom.com/crispy-baked-chicken-tenders/-->
+ <!-- Firecracker shrimp: https://www.cookinwithmima.com/firecracker-shrimp/-->
+<!-- Biscuit: https://www.bojanglesmenu.onl/cajun-chicken-filet-biscuit/ -->
+<!-- Sandwich: https://www.bojangles.com/socluckingood/ -->
+ <!-- Hibachi Steak: https://pixel.menusifu.com/465a67766f5368675765612b732f5472364f413948673d3d/20230831125118711Ko59.jpg-->
+<!-- Salmon Poke Bowl: https://pixel.menusifu.com/465a67766f5368675765612b732f5472364f413948673d3d/20230904101318767Xakx.jpg -->
+<!-- Kimchi bowl: https://pixel.menusifu.com/465a67766f5368675765612b732f5472364f413948673d3d/20230831124818272QUbA.jpg-->
+ <!-- Happy Bowl: https://www.happybowluncg.com/-->
+  <!-- Supremes: https://www.bojanglesrdu.com/menu/boneless-chicken/-->

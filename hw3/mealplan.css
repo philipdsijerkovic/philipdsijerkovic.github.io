@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: start;
+    padding: 16px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 4px;
+    width: 150px; 
+    text-align: center;
+}
+
+.roboto-font {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.add-button {
+    background-color: lightblue;
+    border: none;
+}
+
+.shopping-cart-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center; 
+    padding: 16px;
+}
+
+.shopping-cart-item {
+    border: 1px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 200px; 
+    text-align: center;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+

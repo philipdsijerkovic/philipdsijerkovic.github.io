@@ -1,7 +1,7 @@
 header {
     color: black;
     text-align: center;
-    padding: 1em;
+    padding: 16px;
     font-weight: bold;
     font-size: 40px;
     display: flex;
@@ -42,7 +42,7 @@ header h2 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 .black {
     color: black;
@@ -68,8 +68,8 @@ header img {
     align-items: center;
     background-color: lightblue;
     flex-direction: column;
-    padding: 1em;
-    margin: 1em auto; 
+    padding: 16px; 
+    margin: 16px auto; 
     border-radius: 10px;
     width: 500px; 
     max-width: 100%; 
@@ -77,14 +77,14 @@ header img {
 
 .card {
     display: flex;
-    padding: 1em;
+    padding: 16px;
     align-items: center;
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    margin: 1em auto;
+    margin: 16px auto;
     width: 500px; 
     max-width: 100%; 
 }
@@ -95,6 +95,61 @@ header img {
 }
 
 .card-content {
-    padding: 1em;
-    display: flex; 
+    padding: 16px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.card h3 {
+    padding-right: 10px;
+}
+
+.card p {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+}
+
+.recommendation {
+    display: flex;
+    padding: 8px; 
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 8px; 
+    width: 300px; 
+    max-width: 100%; 
+}
+
+
+.recommendation-content {
+    padding: 8px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+img.small {
+    margin: 0 10px;
+    border: 1px solid black;
+    width: 72px;
+    height: 48px;
+}
+
+img.big {
+    margin: 0 10px;
+    border: 1px solid black;
+    width: 150px;
+    height: 100px;
+}
+
+button {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
 }
