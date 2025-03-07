@@ -1,0 +1,46 @@
+h1 {
+    align-content: center;
+    text-align: center;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px black solid;
+}
+
+.computer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.border {
+    border: 2px red solid;
+}
+
+.border-computer {
+    bottom: 2px blue solid;
+}
+
+.win {
+    text-align: center;
+    color: green;
+    font-size: 20px;
+}
+
+.lose {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
